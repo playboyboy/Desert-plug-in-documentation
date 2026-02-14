@@ -1,0 +1,181 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<title>Reg</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.style2, li.style2, div.style2
+	{mso-style-name:style2;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	color:blue;
+	font-weight:bold;}
+span.style21
+	{mso-style-name:style21;
+	color:blue;
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style="tab-interval: 21.0pt">
+
+<div class=Section1>
+
+<p class=style2><span style="FONT-SIZE: 13.5pt">函数简介<span lang=EN-US>:</span></span></p>
+
+<p><span style="FONT-SIZE: 13.5pt">调用此函数来注册，从而使用插件的高级功能<span lang=EN-US>.</span>推荐使用此函数，注意程序开头必须每次都要用此命令注册VIP，此命令发送注册码附加码连接大漠插件服务器，如果成功返回1.注册成功后免费俩小时不扣。一台电脑用超过俩小时则扣1天也就是7分钱。一台电脑无论怎么注册都是最多扣1天7分钱。大漠按每天电脑使用数扣费。<span
+ lang=EN-US>.</span></span></p>
+
+<p><span class=style21><span style="FONT-SIZE: 13.5pt">函数原型<span lang=EN-US>:</span></span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"></span></p>
+
+<p><span lang=EN-US style="FONT-SIZE: 13.5pt">long <span class=SpellE>Reg</span>(<span
+ class=SpellE>reg_code,ver_info</span>)</span></p>
+
+<p><span class=style21><span style="FONT-SIZE: 13.5pt">参数定义<span lang=EN-US>:<br>
+<br>
+</span></span></span><span class=SpellE><span lang=EN-US style="FONT-SIZE: 13.5pt">reg_code</span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"> </span><span style="FONT-SIZE:
+ 13.5pt; COLOR: gray">字符串</span><span lang=EN-US style="FONT-SIZE: 13.5pt">: </span><span
+ style="FONT-SIZE: 13.5pt">注册码<span lang=EN-US>. (</span><a href="http://www.52hsxx.com" target="_blank">后台充值或从后台友情连接处进入易吧淘宝店购买直接使用网址eyy8.taobao.com或网址www.52hsxx.com进入下单）</a></p>
+
+<p><span class=SpellE><span lang=EN-US style="FONT-SIZE: 13.5pt">ver_info</span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"> </span><span style="FONT-SIZE:
+ 13.5pt; COLOR: gray">字符串</span><span lang=EN-US style="FONT-SIZE: 13.5pt">: </span><span
+ style="FONT-SIZE: 13.5pt">版本附加信息（附加码）<span lang=EN-US>. </span><a href="http://www.52hsxx.com" target="_blank">从网站www.52hsxx.com获取,或者直接淘宝店购买直接使用,地址eyy8.taobao.com</a><span
+ lang=EN-US></span>填写网址www.52hsxx.com里发送的附加码<span lang=EN-US>. </span>不可留空<span lang=EN-US>. </span><span
+ style="COLOR: fuchsia">长度不能超过<span lang=EN-US>20. </span>并且只能包含数字和字母以及小数点<span
+ lang=EN-US>. </span>这个版本信息不是插件版本。而是在网站www.52hsxx.com获取到的附加码<span lang=EN-US>.</span></span><span
+ lang=EN-US></span></span></p>
+
+<p><span class=style21><span style="FONT-SIZE: 13.5pt">返回值<span lang=EN-US>:</span></span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"></span></p>
+
+<p><span style="FONT-SIZE: 13.5pt; COLOR: maroon">整形数<span lang=EN-US>:</span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"><br>
+-1 : </span><span style="FONT-SIZE: 13.5pt">无法连接网络<span lang=EN-US>,(</span><span
+ style="COLOR: fuchsia">一般原因是用错误注册码或者注册码到期后疯狂注册。注册失败次数过多可能封了一天IP,重启路由器或者明天自动恢复，也可能防火墙拦截如版本太老连接不上大漠服务器.建议到<A 
+href="http://www.52hsxx.com">www.52hsxx.com</A>下载最新dm.dll更换一下dll文件<span lang=EN-US>,</span>具体原因见<A 
+href="https://www.eyy8.vip/thread-2452-1-2.html">https://www.eyy8.vip/thread-2452-1-2.html</A></span><span
+ lang=EN-US>)<br>
+-2 : </span>进程没有以管理员方式运行<span lang=EN-US>. (</span>出现在<span lang=EN-US>win7
+win8 vista 2008.</span>建议关闭<span class=SpellE><span lang=EN-US>uac</span></span><span
+ lang=EN-US>)<br>
+0 : </span>失败<span lang=EN-US> (</span>未知错误<span lang=EN-US>原因是写的代码不对。注册之前没有创建对象。或者没有注册到系统。如果用的免注册到系统可能代码不对。鉴别方法很简单。在代码里ver输出一下大漠版本号如果是空。说明没有注册到系统或免注册系统代码不对)<br>
+1 : </span>成功<span lang=EN-US><br>
+2 : </span>余额不足<span lang=EN-US><br>
+3 : </span>绑定了本机器，但是账户余额不足<span lang=EN-US>50</span>元<span lang=EN-US>.<br>
+4 : </span>注册码错误<span lang=EN-US><br>
+5 : </span>你的机器或者<span lang=EN-US>IP</span>在黑名单列表中或者不在白名单列表中<span lang=EN-US>.<br>
+6 : </span>非法使用插件<span lang=EN-US>. <br>
+7 : </span>你的帐号因为非法使用被封禁<span lang=EN-US>. </span>（如果是在虚拟机中使用插件，必须使用<span
+ class=SpellE><span lang=EN-US>Reg</span></span>或者<span class=SpellE><span
+ lang=EN-US>RegEx</span></span>，不能使用<span class=SpellE><span lang=EN-US>RegNoMac</span></span>或者<span
+ class=SpellE><span lang=EN-US>RegExNoMac</span></span><span lang=EN-US>,</span>否则可能会造成封号，或者封禁机器）<span
+ lang=EN-US><br>
+8 : <span class=SpellE>ver_info</span></span>不在你设置的附加白名单中，或者余额不足被系统拉黑。如果你是直接买的注册码.可能是余额不足.请下载余额查询工具查询余额下载地址www.52hsxx.com<span lang=EN-US>易吧<br>
+77</span>： 机器码或者<span lang=EN-US>IP</span>因为非法使用，而被封禁<span lang=EN-US>. </span>（如果是在虚拟机中使用插件，必须使用<span
+ class=SpellE><span lang=EN-US>Reg</span></span>或者<span class=SpellE><span
+ lang=EN-US>RegEx</span></span>，不能使用<span class=SpellE><span lang=EN-US>RegNoMac</span></span>或者<span
+ class=SpellE><span lang=EN-US>RegExNoMac</span></span><span lang=EN-US>,</span>否则可能会造成封号，或者封禁机器）<span
+ lang=EN-US><br>
+<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+ style="COLOR: #ff6600">封禁是全局的，如果使用了别人的软件导致<span lang=EN-US>77</span>，也一样会导致所有注册码均无法注册。解决办法是更换<span
+ lang=EN-US>IP</span>，更换<span lang=EN-US>MAC.</span></span><span lang=EN-US><br>
+-8 : </span>版本附加信息长度超过了,如果你的版本附加码填写正确.说明你系统里注册使用的大漠版本太老了.请用ver命令输出版本号看看.尽量用7.xx以后的版本.<span lang=EN-US>20<br>
+-9 : </span>版本附加信息里包含了非法字母,请检查是否有空格什么的.<span lang=EN-US>.<br>
+</span><span style="COLOR: fuchsia">空<span lang=EN-US> : </span>这是不可能返回空的，如果出现空，那肯定是当前使用的版本不对<span
+ lang=EN-US>,</span>老的插件里没这个函数导致返回为空<span lang=EN-US>.</span>最好参考文档中的标准写法<span
+ lang=EN-US>,</span>判断插件版本号<span lang=EN-US>.</span></span><span lang=EN-US></span></span></p>
+
+<p><span class=style21><span style="FONT-SIZE: 13.5pt">示例<span lang=EN-US>:</span></span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"></span></p>
+
+<p><span lang=EN-US style="FONT-SIZE: 13.5pt"><br>
+<span class=SpellE>dm_ret</span> = <span class=SpellE>dm.Reg</span>("<span
+ class=SpellE>abcdefg</span>","")<br>
+if <span class=SpellE>dm_ret</span> &lt;&gt; 1 then<br>
+<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </span><span class=SpellE>MessageBox</span>
+"</span><span style="FONT-SIZE: 13.5pt">注册失败<span lang=EN-US>,</span>只能使用免费功能<span
+ lang=EN-US>"<br>
+end if<br>
+<br>
+</span><span style="COLOR: red">注<span lang=EN-US>: </span>简单游平台调用此函数，不会扣费<span
+ lang=EN-US>.</span></span><span lang=EN-US></span></span></p>
+
+<p><span style="FONT-SIZE: 13.5pt; COLOR: red">注册码在大漠插件后台可以查看<span lang=EN-US>.</span></span></p>
+
+<p><span style="FONT-SIZE: 13.5pt; COLOR: red">此函数每个进程调用一次即可，不需要每个<span
+ lang=EN-US>DM</span>对象都调用<span lang=EN-US>.</span></span></p>
+
+<p><span style="FONT-SIZE: 13.5pt; COLOR: red">必须保证此函数在创建完对象以后立即调用，尤其必须在绑定窗口之前调用，否则可能会出现异常<span
+ lang=EN-US>.</span></span></p>
+
+<p><span style="FONT-SIZE: 13.5pt; COLOR: red">如果有多个进程操作同个窗口，必须保证每个进程要么都调用<span
+ class=SpellE><span lang=EN-US>Reg</span></span><span lang=EN-US>,</span>要么都不要调用<span
+ class=SpellE><span lang=EN-US>Reg</span></span>，以免出现异常<span lang=EN-US>.</span></span><span
+ lang=EN-US style="FONT-SIZE: 13.5pt"></span></p>
+
+<p><span lang=EN-US style="FONT-SIZE: 13.5pt">&nbsp;</span></p>
+
+</div></SPAN>
+
+</body>
+
+</html>
